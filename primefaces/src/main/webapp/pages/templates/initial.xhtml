@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui" xmlns:jsf="http://xmlns.jcp.org/jsf"
+	template="/pages/templates/layout.xhtml">
+
+	<ui:param name="activeMenu" value="inicial" />
+	<ui:define name="pageTitle"> Estudo </ui:define>
+	<ui:define name="pageDescription"> Inicial </ui:define>
+	<ui:define name="breadcrumb" />
+	<ui:define name="body">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="box box-default">
+					<div class="box-header with-border">
+						<h3 class="box-title">
+							<i class="fa fa-table x-big"></i> Bem Vindo!
+						</h3>
+					</div>
+					<div class="post clearfix">
+						<p>Esse é o projeto de Estudo do Marcelo!</p>
+						<br></br>
+						<p>Links Úteis:</p>
+						<p>
+							<a href="https://www.primefaces.org/showcase" target="_blank"
+								title="Página com exemplos de todos componentes do Primefaces">Showcase
+								Primefaces</a>
+						</p>
+						<p>
+							<a href="https://stackoverflow.com/" target="_blank"
+								title="Melhor lugar para encontrar soluções na comunidade.">StackOverflow</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

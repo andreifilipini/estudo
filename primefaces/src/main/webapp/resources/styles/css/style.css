@@ -1,0 +1,589 @@
+/* CUSTOMIZAÇÕES DO SISTEMA */
+
+/* comum */
+.observacao {
+	font-size: 100%;
+}
+
+.formulario {
+	margin-top: 10px;
+}
+
+.sem-padding {
+	padding: 0 !important;
+}
+
+.sem-padding-label {
+	padding: 5px !important;
+}
+
+.sem-negrito, .sem-negrito label {
+	font-weight: normal;
+}
+
+.negrito, .negrito label {
+	font-weight: bold;
+}
+
+.ui-button.botao-azul, .ui-fileupload-simple .ui-button, .ui-fileupload .ui-button
+	{
+	background-color: #3C8DBC !important;
+	border: none !important;
+	background-image: none !important;
+	margin-top: 15px !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	text-shadow: none !important;
+	font-weight: bold;
+}
+
+.hover-laranja:hover {
+	background-color: #F7903B !important;
+}
+
+.hover-vermelho:hover {
+	background-color: #E53935 !important;
+}
+
+.hover-verde:hover {
+	background-color: #689f38 !important;
+}
+.hover-azul:hover{
+	background-color: #2E6C92 !important;
+}
+
+.ui-button .fa {
+	color: white;
+}
+
+/*.botao-azul:hover, .ui-fileupload-simple .ui-button:hover,
+	.ui-fileupload .ui-button:hover {
+	background-color: #F7903B !important;
+}*/
+.botao-g {
+	min-width: 235px;
+}
+
+.botao-m {
+	min-width: 185px;
+}
+
+.botao-p {
+	min-width: 115px;
+}
+
+.acoes {
+	text-align: center;
+	white-space: nowrap;
+}
+
+/* geral */
+.box-body div {
+	padding-top: 0;
+}
+
+.content-wrapper {
+	background-color: #fff;
+}
+
+.skin-blue .main-header .navbar {
+	background: #2E6C92;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+	background-color: #3C8DBC;
+	border: none;
+}
+
+.ui-tabs .ui-tabs-nav.ui-widget-header li.ui-state-active {
+	background-color: #F9F9F9;
+}
+
+.ui-tabview .ui-tabview-panel, .box-body, .ui-widget-content {
+	background: #f9f9f9 none repeat scroll 0 0;
+}
+
+.box-body {
+	padding-bottom: 25px;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a
+	{
+	border-left: 3px solid #F78121 !important;
+	border: 0;
+	background: #2E6C92;
+}
+
+.skin-blue .sidebar-menu>li:hover>a {
+	opacity: 0.8;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+	border-left: 3px solid #F78121;
+	color: #fff !important;
+	background: #2E6C92;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+	background-color: #3C8DBC;
+	color: #fff;
+	border: 0;
+}
+
+.content-header>h1 {
+	color: #3C8DBC;
+}
+
+.skin-blue .sidebar a {
+	color: #fff !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
+	{
+	border: 1px solid #2E6C92;
+}
+
+.ui-icon-bullet {
+	background-position: -81px -145px;
+}
+
+.box-body div.ui-radiobutton {
+	padding-top: 6px;
+}
+
+.sidebar-menu>li>a {
+	border-bottom: none;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight,
+	.ui-widget-header .ui-state-highlight {
+	background-image: linear-gradient(to bottom, #3C8DBC, #3C8DBC);
+	color: #fff;
+}
+
+.ui-tabs .ui-tabs-panel {
+	padding: 0 1em !important;
+}
+
+.ui-tabs .ui-tabs-nav.ui-widget-header li a {
+	color: #333333;
+	font-size: 12px;
+}
+
+.skin-blue .main-header .logo {
+	color: #2E6C92;
+	font-size: 18px;
+	background: #fff;
+}
+
+.skin-blue .main-header .logo:hover {
+	color: #2E6C92;
+}
+
+.box-body div.ui-selectonemenu {
+	height: 30px;
+	padding-top: 0;
+}
+
+.ui-selectonemenu-label, .ui-selectcheckboxmenu-label {
+	padding: 3.5px !important;
+	height: 28px;
+	font-weight: normal;
+}
+
+.ui-outputlabel-rfi {
+	float: left;
+	margin-right: 2px;
+	margin-left: 0 !important;
+}
+
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error
+	{
+	color: #333;
+	border: 1px solid rgb(168, 168, 168);
+}
+
+.ui-inputfield.ui-state-error, .ui-widget-header .ui-inputfield.ui-state-error,
+	.ui-widget-content .ui-inputfield.ui-state-error {
+	border: 1px solid rgb(168, 168, 168);
+}
+
+.ui-selectonemenu-trigger.ui-state-error {
+	background: #f5f5f5 50% 50% repeat-x;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+}
+
+.ui-state-active a {
+	color: #3C8DBC !important;
+	font-weight: bold !important;
+}
+
+.ui-selectcheckboxmenu {
+	border-radius: 2px !important;
+}
+
+.ui-selectcheckboxmenu-trigger {
+	width: 30px !important;
+	padding: 5px 6px !important;
+	border-radius: 0 !important;
+}
+
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-list-item .ui-chkbox
+	{
+	margin-top: -15px !important;
+}
+
+.ui-tabs-panel .ui-panel {
+	padding: 0;
+	border: none;
+}
+
+.ui-tabs-panel, .ui-tabs-panels {
+	border-left: 1px solid rgb(219, 220, 226) !important;
+	border-right: 1px solid rgb(219, 220, 226) !important;
+}
+
+.ui-tabs-panel {
+	border-bottom: 1px solid rgb(219, 220, 226) !important;
+}
+
+.ui-tabs.ui-tabs-top {
+	border-bottom: 0;
+}
+
+.ui-fileupload .ui-button .ui-button-text {
+	padding: 9px 0 0 0;
+	font-size: 14px;
+}
+
+.ui-fileupload-buttonbar {
+	border: none;
+	background: none;
+}
+
+.ui-fileupload-content {
+	display: none;
+}
+
+.ui-fileupload-buttonbar .ui-icon-plusthick {
+	display: none;
+}
+
+.ui-fileupload-buttonbar {
+	padding: 0 !important;
+}
+
+.ui-messages-error {
+	padding-top: 6px !important;
+	margin: 0;
+}
+
+.ui-picklist, .ui-picklist-list {
+	width: 100% !important;
+}
+
+.ui-picklist-list-wrapper {
+	width: 50%;
+}
+
+.ui-widget :active, .ui-state-focus {
+	outline: none !important;
+}
+
+.modal-anexo .ui-dialog {
+	left: auto !important;
+}
+
+.ui-messages-error {
+	padding-top: 6px !important;
+	margin: 0;
+}
+
+.ui-picklist, .ui-picklist-list {
+	width: 100% !important;
+}
+
+.ui-picklist-list-wrapper {
+	width: 50%;
+}
+
+.ui-widget :active, .ui-state-focus {
+	outline: none !important;
+}
+
+.ui-dialog-title {
+	color: #2E6C92 !important;
+	font-size: 18px !important;
+}
+
+.ui-confirm-dialog .ui-icon-alert, .ui-confirm-dialog .ui-icon-check,
+	.ui-confirm-dialog .ui-icon-close {
+	display: none;
+}
+
+.ui-confirm-dialog .ui-button-text {
+	padding: 3.5px !important;
+}
+
+.ui-dialog-titlebar {
+	padding: 2px 10px !important;
+	border-bottom: 1px solid #ddd !important;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+}
+
+.ui-confirm-dialog .ui-dialog-buttonpane {
+	background: #fff;
+	border: 0;
+	margin: 0 !important;
+	padding-top: 0 !important;
+}
+
+.ui-confirm-dialog .ui-dialog-content {
+	text-align: center;
+	padding-bottom: 0 !important;
+}
+
+.ui-confirm-dialog, .ui-dialog {
+	border-radius: 0 !important;
+}
+
+.ui-messages-info {
+	border-color: #2ecc71 !important;
+	background-color: #2ecc71 !important;
+}
+
+.ui-selectcheckboxmenu {
+	height: 30px;
+}
+
+.ui-link {
+	font-family: sans-serif !important;
+}
+
+.ui-selectonemenu-filter-container {
+	width: 100%;
+}
+
+.ui-selectonemenu-panel .ui-selectonemenu-filter {
+	width: 100% !important;
+}
+
+.destaque-campos, .destaque-campos input {
+	border: 1px solid #cc0000 !important;
+}
+/*dados pessoais*/
+.chck-sms {
+	padding-top: 23px !important;
+}
+
+.label-fotografia {
+	padding-left: 9px !important;
+}
+/*dados bancários*/
+.chck-bancarios {
+	margin-right: 3px;
+}
+/*anexo*/
+.span-anexo {
+	font-size: 12px;
+}
+
+.modal-anexo {
+	top: 10% !important;
+	height: 80% !important;
+	overflow: auto !important;
+}
+
+.cropper-modal-pessoa {
+	width: 540px !important;
+	height: 480px !important;
+	overflow: auto !important;
+}
+
+.cropper-modal-pessoa .jcrop-holder {
+	margin: 0 auto;
+}
+
+.botao-anexo.ui-fileupload .ui-button {
+	width: 130px !important;
+	margin-top: 0 !important;
+}
+
+.ui-selectmanycheckbox.ui-grid label, .ui-selectoneradio.ui-grid label {
+	display: inline !important;
+}
+/*formação*/
+.botoes-modal-formacao {
+	margin-top: 100px;
+}
+/*exibir*/
+label.ui-state-disabled {
+	background-color: transparent !important;
+}
+
+.sidebar-menu .treeview-menu>li>a>.fa {
+	width: 12px;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+	padding: 5px;
+}
+/*CUSTOMIZANDO O H3*/
+h3 {
+	color: #2E6C92;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-bottom: 1px dotted #2E6C92;
+}
+
+h2 {
+	font-size: 20px;
+	color: #2E6C92;
+	margin-top: 10px;
+}
+
+.radio-identificacao .ui-radiobutton {
+	margin: 3px 0 6px 0;
+	width: 5px;
+	vertical-align: middle;
+	padding-top: 0 !important;
+}
+/*CUSTOMIZANDO WIZARD*/
+.ui-wizard-step-title {
+	font-size: 14px !important;
+	margin: 1px !important;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	background: #ECECEC;
+	border-radius: 4px 4px 0 0;
+	padding: 0.6em !important;
+}
+
+.ui-wizard-content {
+	margin: 0 !important;
+}
+
+.ui-wizard-step-title:hover {
+	background: #EEEEEE;
+	border: 1px solid #EEEEEE;
+}
+
+.ui-wizard-step-title.ui-state-default {
+	box-shadow: none;
+}
+
+.ui-wizard-step-title a {
+	text-shadow: none;
+}
+
+.ui-wizard-step-title.ui-state-highlight a {
+	color: #3C8DBC !important;
+	text-shadow: none !important;
+}
+
+.ui-wizard-step-title.ui-state-highlight {
+	background: #F9F9F9;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.ui-wizard-step-title.desabilitado {
+	opacity: 0.4 !important;
+}
+
+.panelMaterialPedagogico .ui-panel-content {
+	padding: 0 !important;
+}
+
+.ui-tabs.ui-tabs-left {
+	border-right: none;
+}
+
+.ui-tabs-left>.ui-tabs-panels {
+	width: 77% !important;
+	border-left: none !important;
+}
+
+/*ABAS DE DENTRO DAS ABAS DE INCLUSAO DE TURMAS*/
+.tab-turmas .ui-tabs-nav {
+	border-right: 0px !important;
+}
+
+.tab-turmas.ui-tabs.ui-tabs-top .ui-tabs-nav.ui-widget-header li {
+	border-radius: 4px 4px 0 0;
+}
+
+.tab-turmas.ui-tabs.ui-tabs-top .ui-tabs-nav.ui-widget-header li.ui-state-active
+	{
+	margin-right: 2px;
+}
+
+.tab-turmas.ui-tabs.ui-tabs-top .ui-tabs-nav.ui-widget-header li.ui-state-active
+	{
+	border-color: #dddddd #dddddd transparent #dddddd;
+}
+
+.tabela-formacao td {
+	vertical-align: top;
+}
+
+.button-wp-100{
+	width: 100%;
+}
+
+.wp-100{
+	width: 100%;
+}
+
+.wp-70 {
+	width: 70%;
+}
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
+
+.tab-turmas .ui-tabs-panels {
+	border-right: 0 !important;
+	border-left: 0 !important;
+}
+
+.inclusao-turma .ui-tabs-panels {
+	border-right: 0 !important;
+}
+
+.ui-picklist-caption {
+	text-align: left !important;
+}
+
+.ui-tabs .ui-tabs-nav.ui-widget-header li {
+	background: #ECECEC none;
+}
+.steps-inscricao li{
+	width: 20%;
+}
+.tabela-periodo th{
+	background: transparent;
+	border: none !important;
+	color: #0081C2;
+}
+.tabela-periodo tbody{
+	border-left: 2px solid #DBDCE2;
+}
+.tabela-periodo .ui-column-title{
+	font-weight: bold;
+	
+}
+.tabela-cronograma td{
+	font-size: 11.3333px;
+}
+.tabela-cronograma .ui-column-title{
+	font-size: 11.3333px;
+}
+.margem-r-15{
+	margin-right: 15px !important;
+}
+.message-left .ui-dialog-content{
+	text-align: left;
+}

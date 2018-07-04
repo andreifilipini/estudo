@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui" xmlns:jsf="http://xmlns.jcp.org/jsf">
+
+	<h:form>
+		<ul class="sidebar-menu">
+			<li class="#{activeMenu eq 'inicial' ? 'active' : ''}"><p:link
+					href="/pages/templates/initial.jsf">
+					<i class="fa fa-home"></i>
+					<span>Inicial </span>
+				</p:link></li>
+			<!-- OS 289 alterar disposicao de menus assim como esta no prototipo navegavel -->
+			<li class="treeview #{activeMenu eq 'cadastros' ? 'active' : ''}"><a
+				href="#"> <i class="fa fa-pie-chart"></i> <span>Cadastros</span>
+					<i class="fa fa-angle-left pull-right"></i>
+			</a>
+				<ul class="treeview-menu">
+					<li class="#{activeSubmenu eq 'meuCadastro' ? 'active' : ''}"><p:commandLink
+							action="#" ajax="false">
+							<i class="fa fa-circle-o"></i>
+							Pagina 1
+						</p:commandLink></li>
+					<li class="#{activeSubmenu eq 'fluxoParticipante' ? 'active' : ''}"
+						jsf:rendered="true"><p:commandLink action="#" ajax="false">
+							<i class="fa fa-circle-o"></i>
+							Pagina 2
+						</p:commandLink></li>
+					<li class="#{activeSubmenu eq 'fluxoInscricao' ? 'active' : ''}"
+						jsf:rendered="true"><p:commandLink action="#" ajax="false">
+							<i class="fa fa-circle-o"></i>
+							Pagina 3
+						</p:commandLink></li>
+				</ul></li>
+
+		</ul>
+	</h:form>
+</ui:composition>
